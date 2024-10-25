@@ -1,0 +1,2 @@
+python scratches.py
+@pause

@@ -1,0 +1,4 @@
+{"level":"ERROR","location":"[get_call:142] fyersModel","message":{"API":"/quotes","Error":{"message":"Please provide valid token","code":-15,"s":"error"}},"timestamp":"2024-03-17 23:26:05,682-0400","service":"FyersAPI"}
+{"level":"ERROR","location":"[get_call:142] fyersModel","message":{"API":"/quotes","Error":{"message":"Please provide valid token","code":-15,"s":"error"}},"timestamp":"2024-03-18 22:38:41,862-0400","service":"FyersAPI"}
+{"level":"ERROR","location":"[get_call:142] fyersModel","message":{"API":"/quotes","Error":{"message":"Please provide valid token","code":-15,"s":"error"}},"timestamp":"2024-03-18 23:50:29,454-0400","service":"FyersAPI"}
+{"level":"ERROR","location":"[get_call:142] fyersModel","message":{"API":"/quotes","Error":{"message":"Please provide valid token","code":-15,"s":"error"}},"timestamp":"2024-05-10 15:37:46,735-0400","service":"FyersAPI","taskName":"Task-4"}

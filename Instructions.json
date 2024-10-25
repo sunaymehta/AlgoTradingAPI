@@ -1,0 +1,12 @@
+{
+	"tokens" : {
+		"appId" : "R7V0YK4T3I-100",
+		"redirect_uri" : "https://www.google.com/",
+		"secret_key" : "TPJG5G81CQ"
+		
+		
+	},
+	"websocket_stream" : {
+		"symbols" : ["NSE:NIFTYBANK-INDEX"]
+	}
+}
