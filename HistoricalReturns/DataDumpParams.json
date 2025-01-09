@@ -1,0 +1,12 @@
+{
+	"data" : {
+		"asset" : "NSE:NIFTY50-INDEX",
+		"today" : "2024-12-30",
+		"yearsofdata" : 5
+	},
+	"returns" : {
+		"asset" : "NIFTY50-INDEX_5Y.csv",
+		"today" : "2024-12-30",
+		"yearsofdata" : 5
+	}
+}
