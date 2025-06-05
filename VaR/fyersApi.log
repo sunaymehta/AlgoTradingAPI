@@ -1,0 +1,4 @@
+{"level":"ERROR","location":"[get_call:142] fyersModel","message":{"API":"/history","Error":{"code":-300,"message":"Invalid symbol provided","s":"error"}},"timestamp":"2025-04-12 18:28:06,840-0400","service":"FyersAPI","taskName":"Task-4"}
+{"level":"ERROR","location":"[get_call:142] fyersModel","message":{"API":"/history","Error":{"code":-300,"message":"Invalid symbol provided","s":"error"}},"timestamp":"2025-04-12 18:41:18,877-0400","service":"FyersAPI","taskName":"Task-4"}
+{"level":"ERROR","location":"[get_call:142] fyersModel","message":{"API":"/history","Error":{"code":-16,"message":"Could not authenticate the user","s":"error"}},"timestamp":"2025-04-12 21:55:35,686-0400","service":"FyersAPI","taskName":"Task-4"}
+{"level":"ERROR","location":"[get_call:151] fyersModel","message":{"API":"/quotes","error":"not a valid non-string sequence or mapping object"},"timestamp":"2025-04-18 20:17:18,197-0400","service":"FyersAPI","taskName":"Task-4"}

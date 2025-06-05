@@ -33,6 +33,12 @@ asset = datadumpparams['data']['asset']
 today = datadumpparams['data']['today']
 yearsofdata = datadumpparams['data']['yearsofdata']
 
+# Override with latest market data and lookback = 1yr
+# Comment out this code if manually market data date and lookback needs to be specified
+today = datetime.now().strftime("%Y-%m-%d") # Latest market data
+yearsofdata = 1 # Lookback variable override
+
+
 #today = datetime.now().strftime('%Y-%m-%d')
 ranges = F.get_date_ranges(today, yearsofdata)
 print(ranges)
@@ -47,8 +53,8 @@ historical_data = pd.DataFrame(data_5y['candles'], columns=['timestamp', 'open',
 # Convert the timestamp to a readable date format
 historical_data['timestamp'] = pd.to_datetime(historical_data['timestamp'], unit='s')
 
-historical_data.to_csv('./RawData/'+asset[4:] + '_'+ str(yearsofdata) + 'Y' + '.csv', index=False)
+historical_data.to_csv('./HistoricalData/'+asset[4:] + '_'+ str(yearsofdata) + 'Y' + '.csv', index=False)
 
-print ('Data dumped for ', asset, ' for ', yearsofdata, ' years in RawData folder.')
+print ('Data dumped for ', asset, ' for ', yearsofdata, ' years in HistoricalData folder.')
 print ('Data Range: ',ranges[0][0], ' to ', ranges[-1][-1])
 
